@@ -1,4 +1,7 @@
 # Tri567
+
+[![build status of master](https://travis-ci.org/podkolzinmir/Tri567.svg?branch=master)](https://travis-ci.org/podkolzinmir/Tri567)
+
 HW 02a - Testing a legacy program and reporting on testing results  
 I pledge my honor that I have abided by the Stevens Honor System  
 Miriam Podkolzin
