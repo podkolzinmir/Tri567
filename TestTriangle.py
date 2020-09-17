@@ -26,6 +26,14 @@ class TestTriangles(unittest.TestCase):
     def testEquilateralTriangles(self): 
         self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
 
+    def testIsoscelesTriangles(self):
+        self.assertEqual(classify_triangle(10,10,12),'isosceles','Should be isosceles')
+        self.assertEqual(classify_triangle(6,7,6), 'isosceles', 'Should be isosceles')
+
+    def testTriangle(self):
+        self.assertEqual(classify_triangle(10,15,30),'NotATriangle','Should be NotATriangle')
+        self.assertEqual(classify_triangle(-6,-7,-6), 'NotATriangle', 'Should be NotATriangle')
+    
 if __name__ == '__main__':
     print('Running unit tests')
     unittest.main()
